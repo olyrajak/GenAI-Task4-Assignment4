@@ -1,0 +1,3 @@
+Moile | 200
+Charger | 20
+Cover | 10
