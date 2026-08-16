@@ -1,0 +1,4 @@
+Total Sales: 25530
+Highest Sale: 5000
+Lowest Sale: 450
+Average Sale: 2320.91
