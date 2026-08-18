@@ -88,5 +88,6 @@ Extra (optional): Write a summary at the bottom of the file:
 Total Items: X
 Average Discounted Price: Y
 
+
 Put all Tasks code files in a single folder (or a single notebook) and upload in a
 GitHub repo link or a Google Drive folder and submit the link

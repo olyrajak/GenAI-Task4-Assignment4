@@ -6,6 +6,7 @@
 # 3. Read all lines using .readlines() and convert them into a list of integers.
 # Ensure proper formatting and cleanup of newline characters.
 
+
 with open('sales_data.txt','r') as file:
     # Read file using .read()
     content=file.read()
