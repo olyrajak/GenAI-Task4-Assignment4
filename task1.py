@@ -6,13 +6,15 @@
 # 4. Write each sale on a new line in the file.
 # 5. Close the file, then reopen it and print its contents.
 # Extra (optional): Write the data in comma-separated format instead of separate lines.
-sales = [1200, 450, 980, 1500, 3000]
-with open('sales_data.txt','w') as file:
-    for sales in sales:
-        file.write(str(sales) + '\n')
-    file.close()
 
-with open('sales_data.txt','r') as file:
-    content=file.read()
+sales = [1200, 450, 980, 1500, 3000]
+
+# Write sales data to the file
+with open('sales_data.txt', 'w') as file:
+    for sale in sales:
+        file.write(str(sale) + '\n')
+
+# Read and print the file contents
+with open('sales_data.txt', 'r') as file:
+    content = file.read()
     print(content)
-    file.close()
